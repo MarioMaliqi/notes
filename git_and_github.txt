@@ -1,0 +1,32 @@
+Hello World:
+  // TODO:
+
+setup git and github: 
+  cli tools:
+    git = allows you to work with repo locally
+    gh (GitHub) = allows you to work with repo hosted remotely on Github
+
+  installation of tools:
+    -> $ sudo apt install git
+    -> $ sudo apt install gh
+
+  set username and email in git:
+    -> $ git config --global user.name "Mona Lisa"
+    -> $ git config --global user.email "maliqimario@gmail.com"
+
+  authenticating github from git
+    authenticate to GitHub from the cli with the followoing command:
+      -> $ gh auth login
+
+git concepts:
+  forks:
+    -> A fork is a new repo that contains the code from the repo it was forked from and 
+       builds on top of it
+    -> it allows also for pull requests so someone who forked the repo can change the main 
+       repos code
+
+side notes:
+  open source initiative:
+    open source allows many different people to contribute to larger scale projects
+    it forms communities around these projects
+    open source can also be used for other things than code. (Datasets, legal documentation, etc.)
