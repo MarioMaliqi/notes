@@ -17,6 +17,8 @@ setup git and github:
   authenticating github from git
     authenticate to GitHub from the cli with the followoing command:
       -> $ gh auth login
+      -> add the generated ssh key to the user settings
+        -> Settings -> SSH and GPG keys -> New SSH Key
 
 git concepts:
   forks:
